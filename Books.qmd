@@ -1,0 +1,116 @@
+---
+title: "Quarto Books and GitHub Pages"
+---
+
+# Python, VS Code, Quarto
+
+## Install Python
+
+### Search Engine
+
+1. Search "Quarto Books"
+2. Go to [https://quarto.org/docs/books/](https://quarto.org/docs/books/)
+
+### At the Terminal
+
+1. Created a folder called "work".
+2. I ran the following in the terminal:
+
+```{.email filename="Terminal"}
+quarto create project book mybook
+```
+3. I will be prompted for a title
+    -   I used "Python Stack"
+4. I will be prompted if I want to open in `vscode`
+    -   I accepted.
+
+### In VS Code
+
+1. Generating the book project automatically generated a `_quarto.yml` file.
+
+```{.yml filename="_quarto.yml"}
+project:
+  type: book
+
+book:
+  title: "mybook"
+  author: "Jane Doe"
+  date: "8/18/2021"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png
+```
+
+2. I updated the file to be as follows, with only two chapters:
+
+```{.yml filename="_quarto.yml"}
+project:
+  type: book
+
+book:
+  title: "Python Stack"
+  author: "Prof. Calvin"
+  date: "1/9/2025"
+  chapters:
+    - index.qmd
+    - VSCode.qmd
+    - Books.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+```
+
+### Creating Content
+
+1. I view the initial book by opening a .qmd file and using `Preview`
+    -   By default on Windows, `Crtl+Shift+K`
+2. I include some content in my new .qmd files.
+    -   For me, this was a prior lecture "Python, VS Code, Quarto"
+    -   For me, this was *this* .qmd on books & pages.
+3. I use a full `render` after creating content to ensure everything is up-to-date.
+
+```{.email filename="Terminal"}
+quarto render
+```
+
+# Ensure you have GitHub account
+
+*Follow [this guide](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)*
+
+### Publish Content to GitHub Pages
+
+1. Search "Quarto Publish"
+2. Go to [https://quarto.org/docs/publishing/github-pages.html](https://quarto.org/docs/publishing/github-pages.html)
+3. Read the following:
+
+> an important pre-requisite: you need to have a Git repository on your local machine that is synced to GitHub.
+
+### Create a Git repository
+
+1. Navigate to [https://github.com/](https://github.com/)
+2. Select the Green Button <button "background-color:green">🖥️New</button>
+    -   It will take you to this url: [https://github.com/new](https://github.com/new)
+3. Do some setup:
+    -   Select an owner
+        -   I am @cd-public
+    -   Name the repository 
+        -   I'll do "python-stack-book"
+    -   Add a description.
+        -   "Demo quarto book on the Python tech stack."
+4. Select the Green Button <button "background-color:green">Create repository</button>  
+

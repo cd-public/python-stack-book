@@ -1,0 +1,21 @@
+project:
+  type: book
+
+book:
+  title: "Python Stack"
+  author: "Prof. Calvin"
+  date: "1/9/2025"
+  chapters:
+    - index.qmd
+    - VSCode.qmd
+    - Books.qmd
+
+format:
+  html:
+    theme:
+      dark
+  pdf:
+    documentclass: scrreprt
+
+
+
