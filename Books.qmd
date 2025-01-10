@@ -2,9 +2,9 @@
 title: "Quarto Books and GitHub Pages"
 ---
 
-# Python, VS Code, Quarto
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gR9-mHvKaHA?si=7mQpUnZwOX2i3v0K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Install Python
+# Quarto Books and GitHub Pages
 
 ### Search Engine
 
@@ -88,7 +88,7 @@ format:
 quarto render
 ```
 
-# Ensure you have GitHub account
+# On GitHub
 
 *Follow [this guide](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)*
 
@@ -103,7 +103,7 @@ quarto render
 ### Create a Git repository
 
 1. Navigate to [https://github.com/](https://github.com/)
-2. Select the Green Button <button "background-color:green">🖥️New</button>
+2. Select the Green Button `🖥️New`
     -   It will take you to this url: [https://github.com/new](https://github.com/new)
 3. Do some setup:
     -   Select an owner
@@ -112,7 +112,7 @@ quarto render
         -   I'll do "python-stack-book"
     -   Add a description.
         -   "Demo quarto book on the Python tech stack."
-4. Select the Green Button <button "background-color:green">Create repository</button>  
+4. Select the Green Button `Create repository` 
 
 ### Create a New Repository on the Command Line
 
