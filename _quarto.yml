@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: doc
 
 book:
   title: "Python Stack"
@@ -12,10 +13,9 @@ book:
 
 format:
   html:
-    theme:
-      dark
+    theme: cosmo
   pdf:
     documentclass: scrreprt
 
-
-
+execute:
+  cache: true

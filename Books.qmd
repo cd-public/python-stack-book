@@ -114,3 +114,12 @@ quarto render
         -   "Demo quarto book on the Python tech stack."
 4. Select the Green Button <button "background-color:green">Create repository</button>  
 
+### Create a New Repository on the Command Line
+
+1. Navigate in the file system to your book directory.
+    -   You will need to set up Git at the command line.
+
+### Follow the Instruction from Quarto
+
+1. Return to [https://quarto.org/docs/publishing/github-pages.html](https://quarto.org/docs/publishing/github-pages.html)
+2. Follow instructions from [Render to `docs`]([https://quarto.org/docs/publishing/github-pages.html](https://quarto.org/docs/publishing/github-pages.html)) up to `Publish Command`
