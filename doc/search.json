@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Python Stack",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Readme\nThis self-documenting book introduces the usage of the Python technology stack with Quarto, VS Code, and GitHub for communicating results within the computational sciences.",
     "crumbs": [
-      "Preface"
+      "Readme"
     ]
   },
   {
